@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS2
+build/
+install/
+log/
+
+# VSCode
+.vscode/
+
+# Linux
+*.swp
+.DS_Store
+
+# Maps backup
+*.pgm~
+*.yaml~
