@@ -92,6 +92,7 @@ my_robot/
 
 ## System Architecture
 
+```
 The robot system consists of several main modules:
 
 Perception
@@ -108,7 +109,11 @@ Planning
 
 Control
     Velocity commands are published to /cmd_vel
+```
+
 ## System Pipeline
+
+```
 Gazebo Simulation
         ↓
 Sensor Data (LiDAR)
