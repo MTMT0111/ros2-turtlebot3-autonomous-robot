@@ -51,11 +51,11 @@ sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-cartographer*
 sudo apt install ros-humble-gazebo-ros-pkgs
 ## Project Structure
-```
 
+```
 my_robot/
 ├── my_robot/                # Core ROS2 Python nodes
-│   ├── init.py
+│   ├── __init__.py
 │   ├── hello_ros.py         # Basic ROS2 node example
 │   ├── move_robot.py        # Velocity control node
 │   ├── avoid_obstacle.py    # LiDAR-based obstacle avoidance
@@ -88,6 +88,7 @@ my_robot/
 ├── setup.cfg
 ├── README.md
 └── .gitignore
+```
 
 
 ```
