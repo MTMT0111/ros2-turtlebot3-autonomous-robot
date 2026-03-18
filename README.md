@@ -70,6 +70,7 @@ my_robot/
 ├── maps/                    # Saved maps
 │   ├── my_map.pgm
 │   └── my_map.yaml
+│
 ├── config/                  # Navigation parameters (Nav2 config)
 │
 ├── screenshots/             # Visualization results
