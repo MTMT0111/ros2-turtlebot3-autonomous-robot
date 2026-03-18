@@ -90,8 +90,6 @@ my_robot/
 └── .gitignore
 ```
 
-
-```
 ## System Architecture
 
 The robot system consists of several main modules:
