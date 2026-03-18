@@ -51,6 +51,7 @@ sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-cartographer*
 sudo apt install ros-humble-gazebo-ros-pkgs
 ## Project Structure
+```
 
 my_robot/
 ├── my_robot/                # Core ROS2 Python nodes
@@ -69,7 +70,6 @@ my_robot/
 ├── maps/                    # Saved maps
 │   ├── my_map.pgm
 │   └── my_map.yaml
-│
 ├── config/                  # Navigation parameters (Nav2 config)
 │
 ├── screenshots/             # Visualization results
