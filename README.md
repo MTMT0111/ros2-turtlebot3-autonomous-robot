@@ -51,36 +51,7 @@ sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-cartographer*
 sudo apt install ros-humble-gazebo-ros-pkgs
 ## Project Structure
-```
-ros2_ws/
-└── src/
-    └── my_robot/
-        ├── my_robot/                # Python ROS2 nodes
-        │   ├── __init__.py
-        │   ├── hello_ros.py
-        │   ├── move_robot.py
-        │   ├── avoid_obstacle.py
-        │   └── slam_drive.py
-        │
-        ├── launch/                  # Launch files
-        │   ├── sim.launch.py
-        │   ├── slam.launch.py
-        │   └── nav.launch.py
-        │
-        ├── maps/                    # Saved maps
-        │   ├── my_map.pgm
-        │   └── my_map.yaml
-        │
-        ├── config/                  # Navigation / parameters
-        │
-        ├── screenshots/             # RViz / Gazebo results
-        │
-        ├── resource/
-        │   └── my_robot
-        │
-        ├── package.xml
-        ├── setup.py
-        └── README.md
+
 my_robot/
 ├── my_robot/                # Core ROS2 Python nodes
 │   ├── init.py
